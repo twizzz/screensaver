@@ -65,12 +65,12 @@ function background() {
     console.log(a);
     var urln = "";
     console.log(urln);
-    if (a == 0) { urln = "http://localhost:90/pic/el_capitan_yosemite_valley_4k-1920x1080.jpg"; }
-    else if (a == 1) { urln = "http://localhost:90/pic/karersee_lake_winter_italy-1920x1080.jpg"; }
-    else if (a == 2) { urln = "http://localhost:90/pic/macos_high_sierra_stock_5k-1920x1080.jpg"; }
-    else if (a == 3) { urln = "http://localhost:90/pic/sunset_mountain_lake-1920x1080.jpg"; }
-    else if (a == 4) { urln = "http://localhost:90/pic/sunset_scenery-1920x1080.jpg"; }
-    else { url = "http://localhost:90/pic/macos_high_sierra_stock_5k-1920x1080.jpg"; }
+    if (a == 0) { urln = "/screensaver/pic/el_capitan_yosemite_valley_4k-1920x1080.jpg"; }
+    else if (a == 1) { urln = "/screensaver/pic/karersee_lake_winter_italy-1920x1080.jpg"; }
+    else if (a == 2) { urln = "/screensaver/pic/macos_high_sierra_stock_5k-1920x1080.jpg"; }
+    else if (a == 3) { urln = "/screensaver/pic/sunset_mountain_lake-1920x1080.jpg"; }
+    else if (a == 4) { urln = "/screensaver/pic/sunset_scenery-1920x1080.jpg"; }
+    else { url = "/screensaver/pic/macos_high_sierra_stock_5k-1920x1080.jpg"; }
     console.log(urln);
     var body = document.getElementsByTagName('body')[0];
     console.log(body);
