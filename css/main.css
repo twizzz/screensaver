@@ -29,4 +29,18 @@ button {
     position: absolute;
     bottom: 0;
     left: 0;
+    color: rgba(255, 255, 255, 0.26);
 }
+a:link {
+   color: rgba(255, 255, 255, 0.26);
+}
+a:visited {
+   color: rgba(255, 255, 255, 0.26);
+}
+a:hover {
+   color: rgba(255, 255, 255, 0.26);
+}
+a:active {
+   color: rgba(255, 255, 255, 0.26);
+}
+
